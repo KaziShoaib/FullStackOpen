@@ -1,0 +1,40 @@
+GET http://localhost:3001/api/users
+
+###
+
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+  "username":"hellas",
+  "name":"Arto Hellas",
+  "password": "sekret",
+  "blogs": []
+}
+
+###
+
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+  "username":"mluukkai",
+  "name":"Matti Luukkainen",
+  "password": "salainen",
+  "blogs": []
+}
+
+###
+
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+  "username":"kai",
+  "name":"Matti Luukkainen",
+  "password": "sa",
+  "blogs": []
+}
+
+###
+DELETE http://localhost:3001/api/users/all
