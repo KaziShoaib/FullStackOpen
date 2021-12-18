@@ -1,0 +1,91 @@
+GET http://localhost:3001/api/blogs
+
+###
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImhlbGxhcyIsImlkIjoiNjFiMmRmNThhYzNjMTA0MTYyNzVmYTdmIiwiaWF0IjoxNjM5MTEyNTcxfQ.PoWxzmu1PD5mXERZ7LMskhBlFLFPIxavs7a6Fw3ezKg
+
+{
+  "title":"An amazing month of open source love",
+  "author":"Phoebe Quincy",
+  "url":"https://www.digitalocean.com/blog/hacktoberfest-2021-recap",
+  "likes":0
+}
+
+###
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImhlbGxhcyIsImlkIjoiNjFiMmRmNThhYzNjMTA0MTYyNzVmYTdmIiwiaWF0IjoxNjM5MTEyNTcxfQ.PoWxzmu1PD5mXERZ7LMskhBlFLFPIxavs7a6Fw3ezKg
+
+{
+  "title":"Boost your cloud native skills with these sessions from deploy",
+  "author":"DigitalOcean",
+  "url":"https://www.digitalocean.com/blog/deploy-2021-recap",
+  "likes":0
+}
+
+###
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+
+{
+  "title": "React patterns",
+  "author": "Michael Chan",
+  "url": "https://reactpatterns.com/",
+  "likes": 7
+}
+
+###
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsIn
+
+{
+  "title": "React patterns",
+  "author": "Michael Chan",
+  "url": "https://reactpatterns.com/",
+  "likes": 7
+}
+
+###
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI2MWIyZGY1Y2FjM2MxMDQxNjI3NWZhODMiLCJpYXQiOjE2MzkxMTYxNDR9.0VqJi7eeOkkoEHsfOGYDJRmm_7Sjdjlho8d7fogR5A0
+
+{
+  "title":"Go To Statement Considered Harmful",
+  "author": "Edsger W. Dijkstra",
+  "url":"http://www.u.arizona.edu/~rubinson/copyright_violations/Go_To_Considered_Harmful.html",
+  "likes": 0
+}
+
+###
+DELETE http://localhost:3001/api/blogs/61b2f1a9857f2223ce8566f0
+
+###
+DELETE http://localhost:3001/api/blogs/61b2f1a9857f2223ce8566f0
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+
+###
+DELETE http://localhost:3001/api/blogs/61b2f1a9857f2223ce8566f0
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImhlbGxhcyIsImlkIjoiNjFiMmRmNThhYzNjMTA0MTYyNzVmYTdmIiwiaWF0IjoxNjM5MTE3MDg4fQ.AuldmGi0ZDLBuHlgoVInJmlJlfTD3N7BjWxa2kqC_rw
+
+###
+DELETE http://localhost:3001/api/blogs/61bb3282ebb7b8f769b545bf
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImhlbGxhcyIsImlkIjoiNjFiMmRmNThhYzNjMTA0MTYyNzVmYTdmIiwiaWF0IjoxNjM5NjQxMDQ5fQ.gLZ9K6O15jRP4X7P8ZtK4idHu6O9uWlHAFLlH4PkVlc
+
+###
+DELETE http://localhost:3001/api/blogs/all
+
+###
+
+PUT http://localhost:3001/api/blogs/61b2df8b18f494a46c314654
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImhlbGxhcyIsImlkIjoiNjFiMmRmNThhYzNjMTA0MTYyNzVmYTdmIiwiaWF0IjoxNjM5MTEyNTcxfQ.PoWxzmu1PD5mXERZ7LMskhBlFLFPIxavs7a6Fw3ezKg
+
+{
+  "title":"An amazing month of open source love",
+  "author":"Phoebe Quincy",
+  "url":"https://www.digitalocean.com/blog/hacktoberfest-2021-recap",
+  "likes":1
+}
